@@ -713,7 +713,7 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_MaskInteraction: 0
-  m_Autodestruct: 1
+  m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
 --- !u!114 &1108137234
@@ -728,8 +728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb93d332459d124da96bd4e84b81224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 9
-  z: 9
+  maxX: 16
+  maxZ: 16
 --- !u!120 &1108137235
 LineRenderer:
   serializedVersion: 2
@@ -806,8 +806,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 0.7334804, b: 0, a: 1}
+      key1: {r: 0, g: 0, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -831,7 +831,7 @@ LineRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_ColorSpace: -1
+      m_ColorSpace: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 0
@@ -959,6 +959,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3026678401912944582, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.029212
+      objectReference: {fileID: 0}
+    - target: {fileID: -3026678401912944582, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9555
+      objectReference: {fileID: 0}
+    - target: {fileID: -3026678401912944582, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2103
+      objectReference: {fileID: 0}
     - target: {fileID: -447275898630060098, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.53
@@ -974,6 +986,42 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
       propertyPath: m_Name
       value: MapaGolfe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182493920453879577, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: dd089886599cccd449e8494be919258f, type: 2}
+    - target: {fileID: 4986369359100028402, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0265968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986369359100028402, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9119698
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986369359100028402, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986369359100028402, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.144
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389193911708032381, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7648
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389193911708032381, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.982
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389193911708032381, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0618
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389193911708032381, guid: 86aeeec25bf78094e8496c38c4703f01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9477
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
