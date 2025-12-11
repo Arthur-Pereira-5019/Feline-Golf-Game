@@ -123,7 +123,7 @@ void Awake()
 
     public void subirFase()
     {
-        int proximo = mapa + 1;
+        int proximo = mapa == 6 ? 1 : mapa + 1;
         SceneManager.LoadScene("nivel" + proximo);
     }
 }
